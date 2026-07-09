@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Perfil personal de Karel Molina — Senior Backend Engineer.">
+  <title>Karel Molina — Senior Backend Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="hero">
+      <div class="container">
+        <h1>Karel Molina</h1>
+        <p class="tagline">Senior Backend Engineer · Managua, Nicaragua 🇳🇮</p>
+        <p class="summary">
+          Diseño y desarrollo sistemas backend escalables — desde arquitectura de APIs,
+          optimización de bases de datos, sistemas distribuidos y ajuste de rendimiento.
+          Mi trabajo está en la intersección de ingeniería de sistemas, patrones de arquitectura
+          y herramientas para desarrolladores.
+        </p>
+        <div class="contact">
+          <a href="mailto:karelmzuniga@gmail.com" class="chip">📧 karelmzuniga@gmail.com</a>
+          <a href="https://linkedin.com/in/karel-molina" target="_blank" rel="noopener" class="chip">💼 LinkedIn</a>
+          <a href="https://gitlab.com/karelmolinaz" target="_blank" rel="noopener" class="chip">🦊 GitLab</a>
+          <a href="https://github.com/karelmolina" target="_blank" rel="noopener" class="chip">🐙 GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h2>Áreas de especialización</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Backend Development</h3>
+            <p>Diseño de APIs, optimización de bases de datos y sistemas distribuidos.</p>
+          </article>
+          <article class="card">
+            <h3>Arquitectura</h3>
+            <p>Arquitectura hexagonal, repository pattern e inyección de dependencias.</p>
+          </article>
+          <article class="card">
+            <h3>Performance</h3>
+            <p>Optimización de queries, estrategias de cache y reducción de costos de infraestructura.</p>
+          </article>
+          <article class="card">
+            <h3>Liderazgo técnico</h3>
+            <p>Guía técnica, revisiones de código y mentoría de desarrolladores junior.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Proyectos destacados</h2>
+        <div class="projects">
+          <article class="project">
+            <div class="project-meta">
+              <h3>dotfiles</h3>
+              <span class="stack">Shell, Lua, Stow</span>
+            </div>
+            <p>Configuraciones y automatización de entorno de desarrollo.</p>
+            <a href="https://github.com/karelmolina/dotfiles" target="_blank" rel="noopener">Ver en GitHub →</a>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <h3>Wilson</h3>
+              <span class="stack">NestJS, MongoDB, AWS</span>
+            </div>
+            <p>API NestJS + dashboard refine.dev para torneos y operaciones de video en vivo en FZ Sports.</p>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <h3>Invoicing Automation</h3>
+              <span class="stack">Node.js, MongoDB</span>
+            </div>
+            <p>Sistema personalizado que eliminó la carga administrativa manual en TVUP.</p>
+          </article>
+          <article class="project">
+            <div class="project-meta">
+              <h3>AgNegocio ERP</h3>
+              <span class="stack">Ruby on Rails, PostgreSQL</span>
+            </div>
+            <p>Actualización Rails 4→5 para plataforma de negocios nicaragüense.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Actividad actual</h2>
+        <ul class="list">
+          <li>Explorando spec-driven development con herramientas asistidas por IA.</li>
+          <li>Contribuyendo a herramientas de desarrollo open-source.</li>
+          <li>Mentoreando desarrolladores junior en pruebas y patrones de arquitectura.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Comunidad</h2>
+        <ul class="list">
+          <li>🎓 Teaching Assistant para Harvard CS50 Nicaragua — apoyando a más de 50 estudiantes cada año.</li>
+          <li>👨🏫 Mentor de desarrolladores junior, enfocado en testing, code review y buenas prácticas.</li>
+          <li>🚀 Defensor de flujos de trabajo modernos: pair programming, spec-driven development y herramientas asistidas por IA.</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2>Sobre mí</h2>
+        <p>
+          Ingeniero autodidacta — investigo código fuente y documentación técnica para resolver problemas.
+          Creo en automatizar lo aburrido y enfocarme en decisiones de arquitectura que escalan.
+        </p>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      <p>Última actualización: marzo 2026 · Construido con HTML, CSS, JavaScript y un poco de Live2D.</p>
+    </footer>
+  </div>
+
+  <div id="live2d-container" aria-hidden="true">
+    <canvas id="live2d-canvas"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/pixi.js@6.5.10/dist/browser/pixi.min.js"></script>
+  <script src="js/live2dcubismcore.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display@0.4.0/dist/cubism4.min.js"></script>
+  <script src="js/live2d.js"></script>
+</body>
+</html>
