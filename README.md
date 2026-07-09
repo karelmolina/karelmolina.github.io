@@ -1,42 +1,42 @@
-# Karel Molina — Perfil personal
+# Karel Molina — Personal Profile
 
-Sitio estático de una sola página para GitHub Pages, con perfil profesional y un avatar Live2D interactivo.
+Static single-page site for GitHub Pages, with professional profile and an interactive Live2D Cubism 4 avatar.
 
-## Vista previa local
+## Local preview
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Luego abre http://localhost:8000 en el navegador.
+Then open http://localhost:8000 in your browser.
 
-También puedes usar Node.js:
+Or with Node.js:
 
 ```bash
 npx serve .
 ```
 
-## Publicar en GitHub Pages
+## Deploy to GitHub Pages
 
-1. Sube el contenido de esta carpeta a un repositorio llamado `karelmolina.github.io`.
-2. Ve a **Settings > Pages** del repositorio.
-3. En **Source** selecciona **Deploy from a branch** y elige la rama `main` con la carpeta `/ (root)`.
-4. Guarda y espera unos minutos a que el sitio esté disponible.
+1. Push the contents of this folder to a repository named `karelmolina.github.io`.
+2. Go to **Settings > Pages** in the repository.
+3. Under **Source** select **Deploy from a branch**, choose `main` and folder `/ (root)`.
+4. Save and wait a few minutes for the site to be available.
 
-## Estructura
+## Structure
 
-- `index.html` — contenido del perfil y contenedor del avatar.
-- `css/styles.css` — estilos responsive.
-- `js/live2d.js` — integración con PixiJS y `pixi-live2d-display` para Cubism 4.
-- `js/live2dcubismcore.min.js` — core de Live2D Cubism 4.
-- `assets/live2d/wanko/` — modelo Live2D y sus motions/texturas.
+- `index.html` — profile content and avatar container.
+- `css/styles.css` — responsive styles.
+- `js/live2d.js` — PixiJS + pixi-live2d-display integration for Cubism 4.
+- `js/live2dcubismcore.min.js` — Live2D Cubism 4 core.
+- `assets/live2d/wanko/` — Live2D model, motions and textures.
 
-## Licencia del modelo Live2D
+## Live2D model license
 
-El modelo `wanko_ja` (わんころもち PRO版) es sample data proporcionado por Live2D Inc. y está sujeto a sus términos de uso:
+The `wanko_ja` model (わんころもち PRO版) is sample data provided by Live2D Inc. and is subject to their terms of use:
 https://www.live2d.com/download/sample-data/
 
-## Créditos
+## Credits
 
-- Perfil basado en la información de https://github.com/karelmolina/karelmolina
-- Integración Live2D con [pixi-live2d-display](https://github.com/guansss/pixi-live2d-display)
+- Profile based on https://github.com/karelmolina/karelmolina
+- Live2D integration via [pixi-live2d-display](https://github.com/guansss/pixi-live2d-display)

@@ -191,6 +191,43 @@ a:hover {
   margin-bottom: 0.6rem;
 }
 
+.tech-groups {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.tech-group h3 {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: var(--accent-hover);
+}
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-tag {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.85rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--accent);
+  background: var(--surface);
+  border-radius: 0 12px 12px 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
 .footer {
   margin-top: 4rem;
   padding-top: 2rem;
